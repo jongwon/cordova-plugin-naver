@@ -140,6 +140,8 @@
         <resource-file src="src/ios/libs/NaverAuth.bundle"/>
 
         <!-- 소스  -->
+        <header-file src="src/ios/AppDelegate+naver.h"/>
+        <source-file src="src/ios/AppDelegate+naver.m"/>
         <header-file src="src/ios/NaverPlugin.h"/>
         <source-file src="src/ios/NaverPlugin.m"/>
     </platform>
