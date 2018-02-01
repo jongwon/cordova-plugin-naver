@@ -30,8 +30,7 @@
         </config-file>
 
         <!-- NaverPlugin OAuth2.0 변수 저장 -->
-        <source-file src="src/android/naver.xml" target-dir="res/values"/>
-        <config-file parent="/*" target="res/values/naver.xml">
+        <config-file parent="/*" target="res/values/strings.xml">
             <string name="naver_client_id">$OAUTH_CLIENT_ID</string>
             <string name="naver_client_secret">$OAUTH_CLIENT_SECRET</string>
             <string name="naver_client_name">$OAUTH_CLIENT_NAME</string>
@@ -59,7 +58,7 @@
                      target-dir="src/io/ghyeok/cordova/naver"/>
 
         <!-- 네이버 라이브러리 JAR -->
-        <source-file src="src/android/libs/3rdparty_login_library_android_4.1.4.jar" target-dir="libs"/>
+        <source-file src="src/android/libs/3rdparty_login_library_android_4.1.4.jar" target-dir="app/libs"/>
     </platform>
 
     <!-- ios -->
